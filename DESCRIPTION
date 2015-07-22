@@ -1,0 +1,11 @@
+Package: dpp
+Type: Package
+Title: Projection with dplyr
+Version: 0.0.1.9000
+Authors@R: person("Michael D.","Sumner", role = c("aut", "cre"), email =
+    "mdsumner@gmail.com")
+Description: Demonstrate projecting coordinates with dplyr. 
+License: GPL-3
+LazyData: TRUE
+Depends: dplyr
+Imports: proj4, stats
