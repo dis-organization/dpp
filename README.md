@@ -30,3 +30,5 @@ and it works like this:
     x$y <- m[,2L]
   }
 ```
+
+The question: is there a more dplyr-ish way to apply this paired variable mutation, without extracting to the matrix? Ultimately I'd like to have project methods for objects composed of tbl\_dfs, so perhaps I need to write a new version of proj4::project that works more deeply with dplyr?

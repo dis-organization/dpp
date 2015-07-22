@@ -20,7 +20,7 @@ dplyr for paired calculations
 
 dpp depends on dplyr and imports proj4, and can be installed with 
 
-```{r,message=FALSE}
+```{r,eval=FALSE,message=FALSE}
 devtools::install_github("mdsumner/dpp")
 ```
 
@@ -43,4 +43,4 @@ and it works like this:
     x$y <- m[,2L]
   }
 ```
-
+The question: is there a more dplyr-ish way to apply this paired variable mutation, without extracting to the matrix? Ultimately I'd like to have project methods for objects composed of tbl_dfs, so perhaps I need to write a new version of proj4::project that works more deeply with dplyr?
